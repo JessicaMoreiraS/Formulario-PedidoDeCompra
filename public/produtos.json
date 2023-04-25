@@ -1,0 +1,62 @@
+{
+    "Samsung":[
+        {
+            "id":1,
+            "nome":"Galaxy A03",
+            "descricao":"Core Preto 32GB, 2GB RAM, Câmera Traseira de 8MP, Selfie de 5MP, Tela Infinita de 6.5” e Processador Octa Core",
+            "preco": 599.00
+        },
+        {
+            "id":2,
+            "nome":"Galaxy A23",
+            "descricao":"Preto 128GB, 4GB RAM, Tela Infinita 6.6”, Câmera Traseira Quádrupla, Bateria de 5000mAh e Processador Snapdragon 680 4G",
+            "preco": 1199.00
+        },
+        {
+            "id":3,
+            "nome":"Galaxy M53",
+            "descricao":"5G Verde 128GB, 8GB de RAM, Processador Octa-Core, Câmera Quádrupla, Selfie de 32MP, Tela Infinita de 6.7”",
+            "preco":1749.00
+        }
+    ],
+    "Apple":[
+        {
+            "id":4,
+            "nome":"iPhone 11",
+            "descricao":"64GB branco, Tela de 6,1”, Câmera Dupla de 12MP, iOS”",
+            "preco":2879.10
+        },
+        {
+            "id":5,
+            "nome":"iPhone 13",
+            "descricao":"128GB Meia-noite Tela de 6,1”, Câmera Dupla de 12MP",
+            "preco":4364.10
+        },
+        {
+            "id":6,
+            "nome":"iPhone 14 Pro Max",
+            "descricao":"128GB Prateado, Tela Super Retina XDR de 6,7” com tela Sempre Ativa e ProMotion, Dynamic Island, uma nova forma de interação no iPhone, Câmera grande-angular de 48MP para resolução até 4x maior",
+            "preco":7649.10
+        }
+    ],
+    "Xiaomi":[
+        {
+            "id":7,
+            "nome":"Redmi Note 11",
+            "descricao":"Azul Tela de 6,43”, 128GB, 4GB de RAM, Câmera Traseira Quádrupla, Android 11 e Processador Snapdragon 680",
+            "preco":1550.00
+        },
+        {
+            "id":8,
+            "nome":"Redmi 9T",
+            "descricao":"4GB+64GB Bateria 6000mAh Câmera Quádrupla 48+8+2+2MP Tela 6.53” Azul",
+            "preco":1604.55
+        },
+        {
+            "id":9,
+            "nome":"Redmi 10C",
+            "descricao":"128GB 4GB RAM Tela 6,71” - Azul",
+            "preco":1250.00
+        }
+    ]
+}

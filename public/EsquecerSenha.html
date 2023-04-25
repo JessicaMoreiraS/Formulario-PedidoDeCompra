@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&family=Ubuntu&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <main class="mainLoginPerfil colum">
+        <form>
+            <div class="areaPrecos">
+                <div class="labelSuperior">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf">
+                </div>
+            </div>
+            <div class="btnsRecuperacao">
+                <button type="submit" onclick="enviarEmailComSenha()" class="formBtn">
+                    <span>Recuperar</span>
+                </button>
+            </div>
+        </form>
+        <div class="caixaInvisivel" class="invisivel">
+            <form id="formEmail" action="https://formsubmit.co/your@email.com" method="POST" class="invisivel">
+                <input type="text" name="atencao" id="conteudoEmail" class="invisivel">
+            </form>
+        </div>
+        <div class="notaSenha">
+            <p>Atenção: Caso seja a primeira vez que utiliza a platoforma de recuperação de senha, será enviado um email de validação para o envio de informações para o seu email</p>
+        </div>
+    </main>
+
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+</body>
+</html>

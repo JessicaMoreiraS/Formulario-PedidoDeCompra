@@ -1,0 +1,206 @@
+{
+  "Comprador": [
+    {
+      "nome": "Vinicius M",
+      "telefone": "40028922",
+      "email": "jessica.moreira.roso@gmail.com",
+      "senha": "123",
+      "cpf": "111",
+      "id": 987001
+    },
+    {
+      "id": 987002,
+      "nome": "Marina",
+      "senha": 321,
+      "telefone": 40028923,
+      "cpf": 222,
+      "email": "jessicamoreirars09@gmail.com"
+    },
+    {
+      "id": 987003,
+      "nome": "Julia",
+      "senha": 963,
+      "telefone": 40028924,
+      "cpf": 333,
+      "email": "viniciusmrs@hotmail.com.br"
+    },
+    {
+      "nome": "Beatriz",
+      "senha": "852",
+      "email": "beatriz.britofer@gmail.com",
+      "telefone": "1140028922",
+      "cpf": "888",
+      "id": 987004
+    },
+    {
+      "nome": "Juliana",
+      "telefone": "40028925",
+      "email": "jp6001707@gmail.com",
+      "senha": "852",
+      "cpf": "852",
+      "id": 987005
+    }
+  ],
+  "pedidos": [
+    {
+      "idComprador": "987001",
+      "idProduto": 1,
+      "quantidade": "6",
+      "valorUnitario": "599",
+      "valorTotal": "3594",
+      "endereco": {
+        "cep": "08577830",
+        "numero": "123"
+      },
+      "formaPag": "pix",
+      "dataEntrega": "2023-04-22",
+      "infoAdd": "Compra importante",
+      "status": "entregue",
+      "id": 125
+    },
+    {
+      "idComprador": "987001",
+      "idProduto": 1,
+      "quantidade": "5",
+      "valorUnitario": "R$ 599",
+      "valorTotal": "R$ NaN",
+      "endereco": {
+        "cep": "08577830",
+        "numero": "123"
+      },
+      "formaPag": "transferencia",
+      "dataEntrega": "2023-04-27",
+      "infoAdd": "compra",
+      "status": "entregue",
+      "id": 126
+    },
+    {
+      "idComprador": "987002",
+      "idProduto": 4,
+      "quantidade": "2",
+      "valorUnitario": "2879.1",
+      "valorTotal": "5758.2",
+      "endereco": {
+        "cep": "08577830",
+        "numero": "123"
+      },
+      "formaPag": "cardCredt",
+      "dataEntrega": "2023-04-25",
+      "infoAdd": "Teste",
+      "status": "pendente",
+      "id": 128
+    },
+    {
+      "idComprador": "987004",
+      "idProduto": 3,
+      "quantidade": "10",
+      "valorUnitario": "1749",
+      "valorTotal": "17490",
+      "endereco": {
+        "cep": "08577830",
+        "numero": "123"
+      },
+      "formaPag": "transferencia",
+      "dataEntrega": "2023-05-06",
+      "infoAdd": "compra da Bia",
+      "status": "entregue",
+      "id": 130
+    },
+    {
+      "idComprador": "987004",
+      "idProduto": 4,
+      "quantidade": "2",
+      "valorUnitario": "2879.1",
+      "valorTotal": "5758.2",
+      "endereco": {
+        "cep": "08577830",
+        "numero": "123"
+      },
+      "formaPag": "transferencia",
+      "dataEntrega": "2023-05-02",
+      "infoAdd": "texto aleatorio",
+      "status": "pendente",
+      "id": 131
+    },
+    {
+      "idComprador": "987001",
+      "idProduto": 4,
+      "quantidade": "6",
+      "valorUnitario": "2879.1",
+      "valorTotal": "17274.6",
+      "endereco": {
+        "cep": "08577830",
+        "numero": "123"
+      },
+      "formaPag": "cardCredt",
+      "dataEntrega": "2023-04-22",
+      "infoAdd": "compra prioritaria",
+      "status": "pendente",
+      "id": 132
+    },
+    {
+      "idComprador": "987005",
+      "idProduto": 4,
+      "quantidade": "6",
+      "valorUnitario": "2879.1",
+      "valorTotal": "17274.6",
+      "endereco": {
+        "cep": "08577830",
+        "numero": "123"
+      },
+      "formaPag": "cardCredt",
+      "dataEntrega": "2023-04-28",
+      "infoAdd": "compra teste",
+      "status": "pendente",
+      "id": 134
+    },
+    {
+      "idComprador": "987005",
+      "idProduto": 5,
+      "quantidade": "4",
+      "valorUnitario": "4364.1",
+      "valorTotal": "17456.4",
+      "endereco": {
+        "cep": "08577830",
+        "numero": "123"
+      },
+      "formaPag": "transferencia",
+      "dataEntrega": "2023-04-21",
+      "infoAdd": "compra teste da Ju",
+      "status": "entregue",
+      "id": 136
+    },
+    {
+      "idComprador": "987005",
+      "idProduto": 4,
+      "quantidade": "4",
+      "valorUnitario": "2879.1",
+      "valorTotal": "11516.4",
+      "endereco": {
+        "cep": "08577830",
+        "numero": "123"
+      },
+      "formaPag": "cardDebt",
+      "dataEntrega": "2023-04-19",
+      "infoAdd": "urgente",
+      "status": "pendente",
+      "id": 137
+    },
+    {
+      "idComprador": "987005",
+      "idProduto": 1,
+      "quantidade": "4",
+      "valorUnitario": "599",
+      "valorTotal": "2396",
+      "endereco": {
+        "cep": "08577830",
+        "numero": "123"
+      },
+      "formaPag": "cardDebt",
+      "dataEntrega": "2023-04-27",
+      "infoAdd": "compra de celulares",
+      "status": "entregue",
+      "id": 138
+    }
+  ]
+}

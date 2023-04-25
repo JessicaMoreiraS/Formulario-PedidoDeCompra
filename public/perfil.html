@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <title>Perfil</title>
+</head>
+<body>
+    <header>
+        <h1>Perfil</h1>
+        <nav>
+            <div class="aBox">
+                <a href="index.html">Area do cliente</a>
+            </div>
+            <div class="aBox">
+                <a onclick="senhaGestor()">Area do gestor</a>
+            </div>
+        </nav>
+    </header>
+    <main class="mainPerfil">
+        
+        <form>
+            <div class="labelSuperior">
+                <label for="idComprador">Id</label>
+                <input type="number" id="idComprador" readonly class="inputAutoCompleta">
+            </div>  
+            <div class="areaPrecos">
+                <div class="labelSuperior">
+                    <div class="labelSuperior">
+                        <label for="nomeComprador">Nome</label>
+                        <input type="text" id="nomeComprador">
+                    </div>  
+                    <div class="labelSuperior">
+                        <label for="senhaComprador">Senha</label>
+                        <input type="text" id="senhaComprador">
+                    </div>  
+                </div>
+                <div class="labelSuperior">
+                    <div class="labelSuperior">
+                        <label for="telefoneComprador">Telefone</label>
+                        <input type="text" id="telefoneComprador">
+                    </div>  
+                    <div class="labelSuperior">
+                        <label for="emailComprador">Email</label>
+                        <input type="text" id="emailComprador">
+                    </div>  
+                </div>
+            </div>
+            <div class="labelSuperior">
+                <label for="cpfComprador">CPF</label>
+                <input type="text" id="cpfComprador">
+            </div> 
+
+            <button type="submit" class="formBtn" onclick="atualizarComprador()">
+                <span>Atualizar dados</span>
+            </button>
+        </form>
+        
+        <div id="containerTable">
+            <table>
+                <tr>
+                    <th>ID do Pedido</th>
+                    <th>ID do Produto</th>
+                    <th>Nome do produto</th>
+                    <th>Descricao</th>
+                    <th>Quantidade</th>
+                    <th>Preço Unitário</th>
+                    <th>Preço Total</th>
+                    <th>Data para entrega</th>
+                    <th>Endereço para entrega</th>
+                    <th>Status</th>
+                    <th>Cancelar Pedido</th>
+                </tr>
+                <tbody id="corpoTab"></tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://github.com/JessicaMoreiraS">
+            @JéssicaMoreira
+        </a>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script>
+        perfilComprador()
+        swalDadosAtualizados()
+    </script>
+</body>
+</html>

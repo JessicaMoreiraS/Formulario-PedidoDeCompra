@@ -34,7 +34,7 @@ function buscarComprador(){
     if(document.getElementById("idComprador").value.length == 6){
         var idComprador = document.getElementById("idComprador").value
 
-        fetch(`http://localhost:3000/Comprador/${idComprador}`)
+        fetch(`https://localhost:3000/Comprador/${idComprador}`)
         .then(response => 
             response.json()
         ).then(comprador => {

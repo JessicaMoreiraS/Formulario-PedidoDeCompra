@@ -34,7 +34,7 @@ function buscarComprador(){
     if(document.getElementById("idComprador").value.length == 6){
         var idComprador = document.getElementById("idComprador").value
 
-        fetch(`https://localhost:3000/Comprador/${idComprador}`)
+        fetch(`https://https://formulariopedidodecompra-jessicamoreiraroso.b4a.run/bd/Comprador/${idComprador}`)
         .then(response => 
             response.json()
         ).then(comprador => {
